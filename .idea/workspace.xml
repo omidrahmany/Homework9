@@ -1,7 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f0dcca9d-51c4-4fb4-ad88-e99314a00f02" name="Default Changelist" comment="" />
+    <list default="true" id="f0dcca9d-51c4-4fb4-ad88-e99314a00f02" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/config/PersistenceEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/config/crud/CrudArticle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/config/crud/CrudTag.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/features/Menu/Menu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/features/impl/admin/PublishArticleByAdminImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/features/usecase/admin/PublishArticleByAdminUseCase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MyApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MyApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/config/crud/CrudOperation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/config/crud/CrudOperation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/config/crud/CrudRoles.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/config/crud/CrudRoles.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/config/crud/CrudUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/config/crud/CrudUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/entities/Article.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entities/Article.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/entities/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entities/Category.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/entities/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entities/Role.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/entities/Tag.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entities/Tag.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/entities/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entities/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/features/impl/AddNewArticleUseCaseImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/features/impl/AddNewArticleUseCaseImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/features/impl/ChangePasswordUseCaseImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/features/impl/ChangePasswordUseCaseImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/features/impl/EditArticleUseCaseImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/features/impl/EditArticleUseCaseImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/features/impl/LoginUseCaseImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/features/impl/LoginUseCaseImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/features/impl/ShowMyArticleUseCaseImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/features/impl/ShowMyArticleUseCaseImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/features/impl/SignUpUseCaseImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/features/impl/SignUpUseCaseImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/features/usecase/LoginUseCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/features/usecase/LoginUseCase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/features/usecase/SignUpUseCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/features/usecase/SignUpUseCase.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,10 +67,13 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -59,13 +87,14 @@
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\OMID\IdeaProjects\ArticlesManatementVer3\src\main\java" />
       <recent name="C:\Users\OMID\IdeaProjects\ArticlesManatementVer2\src\main\java" />
     </key>
   </component>
@@ -109,11 +138,27 @@
       <workItem from="1577812042414" duration="799000" />
       <workItem from="1577813497234" duration="13016000" />
       <workItem from="1577874470271" duration="7486000" />
+      <workItem from="1578159681116" duration="195000" />
+      <workItem from="1578160168284" duration="97000" />
+      <workItem from="1578160535540" duration="1087000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

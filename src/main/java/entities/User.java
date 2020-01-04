@@ -1,5 +1,6 @@
 package entities;
 
+import config.PersistenceEntity;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -15,10 +16,9 @@ import java.util.List;
 @NoArgsConstructor
 @Entity
 @Table
-public class User {
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;
+@ToString(callSuper = true)
+public class User extends PersistenceEntity<Long> {
+
     private String userName;
     private String password;
     private String nationalCode;

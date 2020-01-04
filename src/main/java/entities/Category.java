@@ -1,12 +1,16 @@
 package entities;
 
 
+import config.PersistenceEntity;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 import lombok.ToString;
 
-import javax.persistence.*;
+import javax.persistence.Entity;
+import javax.persistence.FetchType;
+import javax.persistence.OneToMany;
+import javax.persistence.Table;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -15,10 +19,8 @@ import java.util.List;
 @AllArgsConstructor
 @NoArgsConstructor
 @Table
-public class Category {
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;
+public class Category extends PersistenceEntity<Long> {
+
     private String title;
     private String description;
 

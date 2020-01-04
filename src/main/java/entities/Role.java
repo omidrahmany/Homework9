@@ -1,6 +1,7 @@
 package entities;
 
 
+import config.PersistenceEntity;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -15,10 +16,9 @@ import java.util.List;
 @NoArgsConstructor
 @Entity
 @Table
-public class Role {
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;
+@ToString(callSuper = true)
+public class Role extends PersistenceEntity<Long> {
+
     private String title;
     @ManyToMany(mappedBy = "roles")
     @ToString.Exclude

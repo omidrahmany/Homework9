@@ -1,13 +1,14 @@
 package config.crud;
 
 import config.HibernateUtil;
+import config.PersistenceEntity;
 import org.hibernate.Session;
 import org.hibernate.query.Query;
 
 import java.io.Serializable;
 import java.util.List;
 
-public abstract class CrudOperation<Entity,ID extends Serializable> {
+public abstract class CrudOperation<Entity extends PersistenceEntity,ID extends Serializable> {
     protected abstract Class<Entity> getEntityClass();
 
     public Entity save(Entity entity) {

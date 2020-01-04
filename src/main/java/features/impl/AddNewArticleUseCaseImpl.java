@@ -1,6 +1,5 @@
 package features.impl;
 
-import entities.Article;
 import entities.Category;
 import entities.User;
 import features.usecase.AddNewArticleUseCase;
@@ -16,11 +15,9 @@ import java.util.Scanner;
 
 public class AddNewArticleUseCaseImpl implements AddNewArticleUseCase {
     User user;
-    Session session;
 
-    public AddNewArticleUseCaseImpl(User user, Session session) {
+    public AddNewArticleUseCaseImpl(User user) {
         this.user = user;
-        this.session = session;
     }
 
     @Override

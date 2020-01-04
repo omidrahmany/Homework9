@@ -1,37 +1,33 @@
 package features.impl;
 
+import config.HibernateUtil;
 import entities.User;
 import features.usecase.LoginUseCase;
-import org.hibernate.Session;
 import org.hibernate.query.Query;
 
 import java.util.List;
 import java.util.Scanner;
 
 public class LoginUseCaseImpl implements LoginUseCase {
-    Session session;
-    public LoginUseCaseImpl(Session session) {
-        this.session = session;
-    }
 
     @Override
     public User login() {
-        session.beginTransaction();
         User output = null;
         outer:while (true) {
             Scanner input = new Scanner(System.in);
             System.out.println("Username: ");
-            String username = input.nextLine();
+            String username = input.next();
             System.out.println("Password: ");
-            String password = input.nextLine();
+            String password = input.next();
+            HibernateUtil.getSession().beginTransaction();
             String hql = "from User u where u.userName=:userName and u.password=:password";
-            Query query = session.createQuery(hql);
+            Query query = HibernateUtil.getSession().createQuery(hql);
             query.setParameter("userName", username);
             query.setParameter("password", password);
             List<User> result = query.list();
-            System.out.println(result);
+//            System.out.println(result);
             if (result.size() == 0) {
-                System.out.println("wrong username or password!");
+                System.out.println("wrong username or bad password!");
                 while(true) {
                     System.out.println(
                             "what would you like to do?\n" +
@@ -51,8 +47,7 @@ public class LoginUseCaseImpl implements LoginUseCase {
         }
         // ----------------------------
         // transaction commit
-        session.getTransaction().commit();
-//        session.close();
+        HibernateUtil.getSession().getTransaction().commit();
         return output;
     }
 }
