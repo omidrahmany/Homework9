@@ -19,7 +19,7 @@ public class LoginUseCaseImpl implements LoginUseCase {
             String username = input.next();
             System.out.println("Password: ");
             String password = input.next();
-            HibernateUtil.getSession().beginTransaction();
+//            HibernateUtil.getSession().beginTransaction();
             String hql = "from User u where u.userName=:userName and u.password=:password";
             Query query = HibernateUtil.getSession().createQuery(hql);
             query.setParameter("userName", username);
@@ -33,7 +33,7 @@ public class LoginUseCaseImpl implements LoginUseCase {
                             "what would you like to do?\n" +
                             "1:Try again\n" +
                             "2:Exit");
-                    String decision = input.nextLine();
+                    String decision = input.next();
                     if (decision.equals("1")) continue outer;
                     else if (decision.equals("2"))break outer;
                     else System.out.println("Invalid number!");

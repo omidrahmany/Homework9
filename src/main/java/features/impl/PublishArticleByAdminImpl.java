@@ -1,9 +1,9 @@
-package features.impl.admin;
+package features.impl;
 
 import config.HibernateUtil;
 import entities.Article;
 import entities.User;
-import features.usecase.admin.PublishArticleByAdminUseCase;
+import features.usecase.PublishArticleByAdminUseCase;
 import org.hibernate.query.Query;
 
 import java.util.List;

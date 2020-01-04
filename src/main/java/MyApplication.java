@@ -11,7 +11,6 @@ import java.util.Scanner;
 public class MyApplication {
     public static void main(String[] args) {
         HibernateUtil.getSession().beginTransaction();
-        HibernateUtil.getSession().getTransaction().commit();
 
         // Creating Roles
         /*Role adminRole = new Role();

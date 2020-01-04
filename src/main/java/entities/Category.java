@@ -19,6 +19,8 @@ import java.util.List;
 @AllArgsConstructor
 @NoArgsConstructor
 @Table
+@ToString(callSuper = true)
+
 public class Category extends PersistenceEntity<Long> {
 
     private String title;

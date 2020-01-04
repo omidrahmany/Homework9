@@ -18,17 +18,13 @@ import java.util.List;
 @Table
 @ToString(callSuper = true)
 public class User extends PersistenceEntity<Long> {
-
     private String userName;
     private String password;
     private String nationalCode;
     private Date birthday;
-
     @OneToMany(fetch = FetchType.LAZY, mappedBy = "user")
     @ToString.Exclude
     private List<Article> articles;
-
     @ManyToMany
     private List<Role> roles = new ArrayList<>();
-
 }

@@ -1,19 +1,6 @@
 package features.impl;
 
-import entities.Category;
-import entities.User;
-import features.usecase.AddNewArticleUseCase;
-import org.hibernate.Session;
-import org.hibernate.query.Query;
-
-import java.text.ParseException;
-import java.text.SimpleDateFormat;
-import java.util.Date;
-import java.util.List;
-import java.util.Locale;
-import java.util.Scanner;
-
-public class AddNewArticleUseCaseImpl implements AddNewArticleUseCase {
+/*public class AddNewArticleUseCaseImpl implements AddNewArticleUseCase {
     User user;
 
     public AddNewArticleUseCaseImpl(User user) {
@@ -106,4 +93,4 @@ public class AddNewArticleUseCaseImpl implements AddNewArticleUseCase {
         return query.list();
     }
 
-}
+}*/

@@ -1,7 +1,10 @@
 package features.Menu;
 
 import entities.User;
-import features.impl.admin.PublishArticleByAdminImpl;
+import features.impl.PublishArticleByAdminImpl;
+import features.impl.admin.AddNewCategoryImpl;
+import features.impl.admin.AddNewTagImpl;
+import features.impl.writer.AddNewArticleImpl;
 
 import java.util.Scanner;
 
@@ -42,9 +45,9 @@ public class Menu {
                     }else if (dec.equals("3")) {
 
                     }else if (dec.equals("4")) {
-
+                        new AddNewCategoryImpl().addNewCategory();
                     }else if (dec.equals("5")) {
-
+                        new AddNewTagImpl().addNewTag();
                     }else if (dec.equals("6")) {
 
                     }else if (dec.equals("7")) {
@@ -65,10 +68,13 @@ public class Menu {
                                     "\t+----------------------+\n"
                     );
                     dec = scanner.next();
-                    if (scanner.equals("1")) {
+                    if (dec.equals("1")) {
+                        new AddNewArticleImpl(user).addNewArticle();
+                    }else if(dec.equals("2")){
 
-                    }else if(scanner.equals("2")){
-
+                    }else if(dec.equals("5")){
+                        user = null;
+                        return;
                     }
 
                 }

@@ -1,8 +1,6 @@
 package config.crud;
 
-import config.HibernateUtil;
 import entities.User;
-import org.hibernate.Session;
 
 public class CrudUser extends CrudOperation<User,Long> {
     private static CrudUser crudUser;

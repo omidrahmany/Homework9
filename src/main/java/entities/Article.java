@@ -19,8 +19,8 @@ import java.util.List;
 @NoArgsConstructor
 @Entity
 @Table
+@ToString(callSuper = true)
 public class Article extends PersistenceEntity<Long> {
-
     private String title;
     private String brief;
     private String content;

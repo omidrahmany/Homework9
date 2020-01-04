@@ -49,7 +49,6 @@ public class SignUpUseCaseImpl implements SignUpUseCase {
         System.out.println(birthday);
         //-----------------------------
         User user = new User(
-                null,
                 username,
                 password,
                 nationalCode,

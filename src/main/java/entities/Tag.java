@@ -17,6 +17,7 @@ import java.util.List;
 @NoArgsConstructor
 @Entity
 @Table
+@ToString(callSuper = true)
 public class Tag extends PersistenceEntity<Long> {
 
     private String title;
