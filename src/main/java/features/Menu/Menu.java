@@ -1,10 +1,11 @@
 package features.Menu;
 
 import entities.User;
-import features.impl.PublishArticleByAdminImpl;
+import features.impl.admin.PublishArticleByAdminImpl;
 import features.impl.admin.AddNewCategoryImpl;
 import features.impl.admin.AddNewTagImpl;
 import features.impl.writer.AddNewArticleImpl;
+import features.impl.writer.ChangePasswordUseCaseImpl;
 
 import java.util.Scanner;
 
@@ -39,7 +40,7 @@ public class Menu {
                     );
                      dec = scanner.next();
                     if (dec.equals("1")) {
-                        new PublishArticleByAdminImpl();
+                        new PublishArticleByAdminImpl().publishArticle();
                     }else if (dec.equals("2")) {
 
                     }else if (dec.equals("3")) {
@@ -72,6 +73,10 @@ public class Menu {
                         new AddNewArticleImpl(user).addNewArticle();
                     }else if(dec.equals("2")){
 
+                    }else if(dec.equals("3")){
+
+                    }else if(dec.equals("4")){
+                        new ChangePasswordUseCaseImpl(user).changeMyPassword();
                     }else if(dec.equals("5")){
                         user = null;
                         return;

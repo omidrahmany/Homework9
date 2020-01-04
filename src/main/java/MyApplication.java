@@ -1,16 +1,19 @@
 import config.HibernateUtil;
+import config.crud.CrudArticle;
 import config.crud.CrudRoles;
 import config.crud.CrudUser;
+import entities.Article;
 import entities.User;
 import features.Menu.Menu;
 import features.impl.LoginUseCaseImpl;
 import features.impl.SignUpUseCaseImpl;
 
+import java.util.List;
 import java.util.Scanner;
 
 public class MyApplication {
     public static void main(String[] args) {
-        HibernateUtil.getSession().beginTransaction();
+        HibernateUtil.getSession();
 
         // Creating Roles
         /*Role adminRole = new Role();
@@ -66,7 +69,11 @@ public class MyApplication {
                     new Menu(user).Show();
                 }
             } else if (decision.equals("3")) {
-
+                List<Article> articles = CrudArticle.getInstance().findAll();
+                articles.
+                        stream().
+                        filter(e->e.isPublished())
+                        .forEach(System.out::println);
             } else if (decision.equals("4")) {
                 break;
             } else System.out.println("\tInvalid Number!");

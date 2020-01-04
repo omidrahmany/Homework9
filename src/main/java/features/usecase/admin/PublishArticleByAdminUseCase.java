@@ -1,4 +1,4 @@
-package features.usecase;
+package features.usecase.admin;
 
 public interface PublishArticleByAdminUseCase {
     void publishArticle();

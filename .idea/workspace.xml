@@ -2,53 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f0dcca9d-51c4-4fb4-ad88-e99314a00f02" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/features/impl/admin/AddNewCategoryImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/features/impl/admin/AddNewTagImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/features/impl/writer/AddNewArticleImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/features/usecase/admin/AddNewCategoryUseCase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/features/usecase/admin/AddNewTagUseCase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/config/crud/CrudArticle.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/features/Menu/Menu.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/features/impl/PublishArticleByAdminImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/features/usecase/PublishArticleByAdminUseCase.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/638151b1-cf72-4d9a-9c8e-c680e4d903a4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/638151b1-cf72-4d9a-9c8e-c680e4d903a4.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/articledatabase.iml" beforeDir="false" afterPath="$PROJECT_DIR$/articledatabase.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/MyApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MyApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/config/crud/CrudUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/config/crud/CrudUser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/entities/Article.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entities/Article.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/entities/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entities/Category.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/entities/Tag.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entities/Tag.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/entities/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/entities/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/features/Menu/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/features/Menu/Menu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/features/impl/AddNewArticleUseCaseImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/features/impl/AddNewArticleUseCaseImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/features/impl/AddNewArticleUseCaseImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/features/impl/ChangePasswordUseCaseImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/features/impl/writer/ChangePasswordUseCaseImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/features/impl/LoginUseCaseImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/features/impl/LoginUseCaseImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/features/impl/SignUpUseCaseImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/features/impl/SignUpUseCaseImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/features/impl/admin/PublishArticleByAdminImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/features/impl/PublishArticleByAdminImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/features/usecase/AddNewArticleUseCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/features/usecase/writer/AddNewArticleUseCase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/features/usecase/admin/PublishArticleByAdminUseCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/features/usecase/PublishArticleByAdminUseCase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/features/impl/PublishArticleByAdminImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/features/impl/admin/PublishArticleByAdminImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/features/usecase/ChangePasswordUseCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/features/usecase/writer/ChangePasswordUseCase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/features/usecase/PublishArticleByAdminUseCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/features/usecase/admin/PublishArticleByAdminUseCase.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/MyApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/MyApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/config/crud/CrudCategory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/config/crud/CrudCategory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/config/crud/CrudOperation.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/config/crud/CrudOperation.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/config/crud/CrudRoles.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/config/crud/CrudRoles.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/config/crud/CrudTag.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/config/crud/CrudTag.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/config/crud/CrudUser.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/config/crud/CrudUser.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/entities/Article.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/entities/Article.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/entities/Category.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/entities/Category.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/entities/Role.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/entities/Role.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/entities/Tag.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/entities/Tag.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/entities/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/entities/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/features/Menu/Menu.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/features/Menu/Menu.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/features/impl/ChangePasswordUseCaseImpl.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/features/impl/LoginUseCaseImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/features/impl/LoginUseCaseImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/features/impl/SignUpUseCaseImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/features/impl/SignUpUseCaseImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/features/impl/admin/AddNewCategoryImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/features/impl/admin/AddNewCategoryImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/features/impl/admin/AddNewTagImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/features/impl/admin/AddNewTagImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/features/impl/writer/AddNewArticleImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/features/impl/writer/AddNewArticleImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/features/usecase/AddNewArticleUseCase.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/features/usecase/admin/AddNewCategoryUseCase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/features/usecase/admin/AddNewCategoryUseCase.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hibernate.cfg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/features/impl/PublishArticleByAdminImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/features/usecase/ChangePasswordUseCase.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/features/usecase/PublishArticleByAdminUseCase.class" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -166,6 +136,7 @@
       <workItem from="1578160168284" duration="97000" />
       <workItem from="1578160535540" duration="2554000" />
       <workItem from="1578163132683" duration="2200000" />
+      <workItem from="1578165691498" duration="1622000" />
     </task>
     <servers />
   </component>
@@ -184,26 +155,5 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/features/impl/AddNewArticleUseCaseImpl.java</url>
-          <line>59</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/features/impl/AddNewArticleUseCaseImpl.java</url>
-          <line>63</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/features/impl/AddNewArticleUseCaseImpl.java</url>
-          <line>57</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
