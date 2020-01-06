@@ -1,11 +1,11 @@
-package features.impl;
+package features.impl.writer;
 
 import config.HibernateUtil;
 import config.crud.CrudRoles;
 import config.crud.CrudUser;
 import entities.Role;
 import entities.User;
-import features.usecase.SignUpUseCase;
+import features.usecase.writer.SignUpUseCase;
 import org.hibernate.query.Query;
 
 import java.text.ParseException;

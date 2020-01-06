@@ -9,10 +9,10 @@ import features.usecase.admin.AddNewCategoryUseCase;
 import java.util.Scanner;
 
 public class AddNewCategoryImpl implements AddNewCategoryUseCase {
-    Scanner scanner = new Scanner(System.in);
 
     @Override
     public void addNewCategory() {
+        Scanner scanner = new Scanner(System.in);
         System.out.println("Category title:");
         String title = scanner.next();
         System.out.println("Description:");

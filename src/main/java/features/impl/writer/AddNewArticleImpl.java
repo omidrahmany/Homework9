@@ -15,7 +15,7 @@ import java.util.Locale;
 import java.util.Scanner;
 
 public class AddNewArticleImpl implements AddNewArticleUseCase {
-    User user;
+    private User user;
 
     public AddNewArticleImpl(User user) {
         this.user = user;
@@ -65,14 +65,14 @@ public class AddNewArticleImpl implements AddNewArticleUseCase {
                             user,
                             null)
                     );
-            System.out.println("Woul you like to add new article again?" +
-                    "1: Yes" +
+            System.out.println("Woul you like to add new article again?\n" +
+                    "1: Yes\n" +
                     "2: No");
             while(true) {
                 String str = scanner.next();
                 if (str.equals("1")) continue outer;
                 else if (str.equals("2")) break outer;
-                else System.out.println("invalid number!");
+                else System.out.println("invalid number!\nPlease try again...");
             }
 
         }

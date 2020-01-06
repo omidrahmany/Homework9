@@ -6,7 +6,7 @@ import entities.Article;
 import entities.User;
 import features.Menu.Menu;
 import features.impl.LoginUseCaseImpl;
-import features.impl.SignUpUseCaseImpl;
+import features.impl.writer.SignUpUseCaseImpl;
 
 import java.util.List;
 import java.util.Scanner;
@@ -49,75 +49,34 @@ public class MyApplication {
         while (true) {
 
             System.out.println(
-                    "\t+--------------------+\n" +
-                    "\t|1: Sign up          |\n" +
-                    "\t|2: Login            |\n" +
-                    "\t|3: Show All Articles|\n" +
-                    "\t|4: Exit             |\n"+
-                    "\t+--------------------+\n"
+                            "\t+--------------------+\n" +
+                            "\t|1: Sign up          |\n" +
+                            "\t|2: Login            |\n" +
+                            "\t|3: Show All Articles|\n" +
+                            "\t|4: Exit             |\n" +
+                            "\t+--------------------+\n"
             );
             String decision = scanner.nextLine();
             if (decision.equals("1")) {
-                System.out.println("\tWelcome to Sign up.");
+                System.out.println("Welcome to Sign up.");
                 new SignUpUseCaseImpl().signUp();
             } else if (decision.equals("2")) {
-                System.out.println("\tWelcome to Login");
+                System.out.println("Welcome to Login");
 
                 // return user was login
                 User user = new LoginUseCaseImpl().login();
                 if (user != null) {
-                    new Menu(user).Show();
+                    new Menu(user).show();
                 }
             } else if (decision.equals("3")) {
                 List<Article> articles = CrudArticle.getInstance().findAll();
                 articles.
                         stream().
-                        filter(e->e.isPublished())
+                        filter(e -> e.isPublished())
                         .forEach(System.out::println);
             } else if (decision.equals("4")) {
                 break;
-            } else System.out.println("\tInvalid Number!");
+            } else System.out.println("Invalid Number!");
         }
     }// End of main
 }
-
-
-//                    while (true) {
-//                        System.out.println("What would you like to do?\n" +
-//                                "1: add new article\n" +
-//                                "2: Show my article(s)\n" +
-//                                "3: Edit my article(s)\n" +
-//                                "4: Change password\n" +
-//                                "5: Logout"
-//                        );
-//                        decision = scanner.nextLine();
-//                        if (decision.equals("1")) {
-//                            System.out.println("adding new article.");
-//                            new AddNewArticleUseCaseImpl(result, session).addNewArticle();
-//                        } else if (decision.equals("2")) {
-//                            new ShowMyArticleUseCaseImpl(session, result).showMyArticle();
-//                        } else if (decision.equals("3")) {
-//                            new EditArticleUseCaseImpl(session, result).edit();
-//
-//                        } else if (decision.equals("4")) {
-//                            new ChangePasswordUseCaseImpl(session, result).changeMyPassword();
-//
-//                        } else if (decision.equals("5")) {
-//                            result = null;
-//                            break;
-//                        } else System.out.println("Invalid Number");
-//
-//
-//                    }
-//                }
-//            } else if (decision.equals("3")) {
-//                session.beginTransaction();
-//                Query<Article> query = session
-//                        .createQuery("from Article article where article.isPublished=true", Article.class);
-//
-//                List<Article> articles = query.list();
-//                articles.forEach(System.out::println);
-//                session.getTransaction().commit();
-//           }
-
-

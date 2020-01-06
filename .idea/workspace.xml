@@ -2,23 +2,42 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f0dcca9d-51c4-4fb4-ad88-e99314a00f02" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/638151b1-cf72-4d9a-9c8e-c680e4d903a4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/638151b1-cf72-4d9a-9c8e-c680e4d903a4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/features/GetNewEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/features/impl/admin/AssignSomeTagImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/features/impl/admin/ChangeRoleImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/features/impl/admin/RemoveArticleImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/features/usecase/admin/AssignSomeTagUseCase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/features/usecase/admin/ChangeUsersRoleUseCase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/features/usecase/admin/RemoveArticleUseCase.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/MyApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MyApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/features/Menu/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/features/Menu/Menu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/features/impl/AddNewArticleUseCaseImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/features/impl/ChangePasswordUseCaseImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/features/impl/writer/ChangePasswordUseCaseImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/features/impl/LoginUseCaseImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/features/impl/LoginUseCaseImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/features/impl/PublishArticleByAdminImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/features/impl/admin/PublishArticleByAdminImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/features/usecase/ChangePasswordUseCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/features/usecase/writer/ChangePasswordUseCase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/features/usecase/PublishArticleByAdminUseCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/features/usecase/admin/PublishArticleByAdminUseCase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/features/impl/EditArticleUseCaseImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/features/impl/writer/EditArticleUseCaseImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/features/impl/ShowMyArticleUseCaseImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/features/impl/SignUpUseCaseImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/features/impl/writer/SignUpUseCaseImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/features/impl/admin/AddNewCategoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/features/impl/admin/AddNewCategoryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/features/impl/admin/AddNewTagImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/features/impl/admin/AddNewTagImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/features/impl/admin/PublishArticleByAdminImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/features/impl/admin/PublishingArticleStatusByAdminImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/features/impl/writer/AddNewArticleImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/features/impl/writer/AddNewArticleImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/features/impl/writer/ChangePasswordUseCaseImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/features/impl/writer/ChangePasswordUseCaseImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/features/usecase/EditArticleUseCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/features/usecase/writer/EditArticleUseCase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/features/usecase/ShowUserArticleUseCase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/features/usecase/SignUpUseCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/features/usecase/writer/SignUpUseCase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/features/usecase/admin/PublishArticleByAdminUseCase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/features/usecase/admin/PublishingArticleStatusByAdminUseCase.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/MyApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/MyApplication.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/features/Menu/Menu.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/features/Menu/Menu.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/features/impl/ChangePasswordUseCaseImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/features/impl/LoginUseCaseImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/features/impl/LoginUseCaseImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/features/impl/PublishArticleByAdminImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/features/usecase/ChangePasswordUseCase.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/features/usecase/PublishArticleByAdminUseCase.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/features/impl/EditArticleUseCaseImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/features/impl/ShowMyArticleUseCaseImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/features/impl/SignUpUseCaseImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/features/impl/admin/AddNewCategoryImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/features/impl/admin/AddNewCategoryImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/features/impl/admin/AddNewTagImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/features/impl/admin/AddNewTagImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/features/impl/admin/PublishArticleByAdminImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/features/impl/writer/AddNewArticleImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/features/impl/writer/AddNewArticleImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/features/impl/writer/ChangePasswordUseCaseImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/features/impl/writer/ChangePasswordUseCaseImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/features/usecase/EditArticleUseCase.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/features/usecase/ShowUserArticleUseCase.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/features/usecase/SignUpUseCase.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/features/usecase/admin/PublishArticleByAdminUseCase.class" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -137,6 +156,9 @@
       <workItem from="1578160535540" duration="2554000" />
       <workItem from="1578163132683" duration="2200000" />
       <workItem from="1578165691498" duration="1622000" />
+      <workItem from="1578243610984" duration="12891000" />
+      <workItem from="1578285581985" duration="2585000" />
+      <workItem from="1578288343172" duration="15764000" />
     </task>
     <servers />
   </component>

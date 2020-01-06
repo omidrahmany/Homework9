@@ -8,7 +8,7 @@ import org.hibernate.Session;
 import java.util.Scanner;
 
 public class ChangePasswordUseCaseImpl implements ChangePasswordUseCase {
-    User user;
+    private User user;
 
     public ChangePasswordUseCaseImpl( User user) {
         this.user = user;
